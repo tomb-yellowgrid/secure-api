@@ -6,6 +6,9 @@ if (!config.jwtSecret) {
   throw new Error('JWT_SECRET is not defined!');
 }
 
+
+
+
 const port = process.env.PORT || 8001;
 
 app.listen(port, () => {
